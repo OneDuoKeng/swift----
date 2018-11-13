@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PatternBusiness' do
+
+use_frameworks!
+
+pod 'Kingfisher'
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'SnapKit'
+pod 'ESPullToRefresh'
+
+end
