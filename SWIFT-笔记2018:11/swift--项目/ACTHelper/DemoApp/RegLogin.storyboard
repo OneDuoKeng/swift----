@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sIJ-L8-w3g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="vOp-3F-4ie">
+            <objects>
+                <viewController id="sIJ-L8-w3g" customClass="WelcomeViewController" customModule="彩虹学院" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gzE-BS-WZs"/>
+                        <viewControllerLayoutGuide type="bottom" id="eSQ-5Z-gUd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FTp-ZS-OSD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <segue destination="4nB-yC-o7p" kind="push" identifier="LoginController" id="aCr-yZ-kCD"/>
+                        <segue destination="68t-uh-sOE" kind="push" identifier="RegStep1Controller" id="FqV-jF-a1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pog-hC-XLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839" y="49"/>
+        </scene>
+        <!--Reg Step1 Controller-->
+        <scene sceneID="8fU-UP-PtM">
+            <objects>
+                <viewController id="68t-uh-sOE" customClass="RegStep1Controller" customModule="彩虹学院" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ilf-qg-E1s"/>
+                        <viewControllerLayoutGuide type="bottom" id="6HY-39-zgy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wNe-jL-K6v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pl3-9s-u9V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pqx-Ra-gDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="411"/>
+        </scene>
+        <!--Login Controller-->
+        <scene sceneID="K9o-Eq-ifM">
+            <objects>
+                <viewController id="4nB-yC-o7p" customClass="LoginController" customModule="彩虹学院" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uQI-19-qR1"/>
+                        <viewControllerLayoutGuide type="bottom" id="0K8-oe-ed5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FgS-zY-VDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jxx-2c-NQh"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pVt-wC-d05" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="-327"/>
+        </scene>
+    </scenes>
+</document>

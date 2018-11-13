@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.2.0)
+  - Cartography (1.0.1)
+  - HappyDNS (0.3.10)
+  - Pages (1.0.0)
+  - PKHUD (4.0.0)
+  - Presentation (3.0.0):
+    - Cartography
+    - Pages
+  - Qiniu (7.1.4):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - Toaster (2.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - PKHUD (~> 4.0)
+  - Presentation
+  - Qiniu (~> 7.1)
+  - Toaster (~> 2.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Cartography: c1460e99395b824d9d75360b0382faeb0b33dcd7
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  Pages: f3718e6f03a5e2787f6b0bff4becb3c7c19bcebc
+  PKHUD: 2bb45c936bb8afa39f3cd33ec14e8cc89f624255
+  Presentation: 2a7e0379ab403c0bd91c4f6d5c59480edba6f429
+  Qiniu: a4c962782035ee25b9da3e195181d8c384bb75be
+  Toaster: be65cd48e93a525b2a9cc4bd25a2bfc900e02d9f
+
+PODFILE CHECKSUM: 7d3c45153fdd9fb1b5b0b09459d85319603804bb
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'DemoApp' do
+    source 'https://github.com/CocoaPods/Specs.git'
+    pod 'Presentation'
+    pod 'Alamofire', '~> 4.0'
+    pod 'PKHUD', '~> 4.0'
+    pod 'Toaster', '~> 2.0'
+    pod 'Qiniu', '~> 7.1'
+end

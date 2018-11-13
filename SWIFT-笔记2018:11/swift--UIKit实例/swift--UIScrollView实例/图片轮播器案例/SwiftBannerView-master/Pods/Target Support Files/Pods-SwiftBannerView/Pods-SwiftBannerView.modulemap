@@ -1,0 +1,6 @@
+framework module Pods_SwiftBannerView {
+  umbrella header "Pods-SwiftBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
