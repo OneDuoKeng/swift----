@@ -10,12 +10,7 @@ import UIKit
 //MARK:(1)接口继承
 class ViewController: UIViewController,MyDelegate {
     
-
-    
-    
-    
     var label:UILabel?;
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,24 +21,17 @@ class ViewController: UIViewController,MyDelegate {
         //加一个右侧按钮
         let item = UIBarButtonItem(title:"下一页",style:UIBarButtonItemStyle.plain,target:self,action:#selector(nextBtnClicked))
         self.navigationItem.rightBarButtonItem = item
-        
         self.title = "首页";
         
-        
         label = UILabel();
-        label?.frame = CGRect.init(x: 0, y: 64, width: self.view.frame.size.width, height: 45);
+        label?.frame = CGRect.init(x: 0, y: 164, width: self.view.frame.size.width, height: 45);
         label?.backgroundColor = UIColor.cyan;
         label?.textColor = UIColor.black;
         label?.textAlignment = .center;
         label?.text = "下一页回调内容的显示,请点击右侧下一页";
         self.view.addSubview(label!);
-        
-
-        
-        
-        
-        
     }
+    
     @objc func nextBtnClicked() -> Void {
         
         

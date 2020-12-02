@@ -15,6 +15,7 @@ class HJButton: UIButton {
     @objc  override func set(image anImage: UIImage?, title: String,
                    titlePosition: UIView.ContentMode, additionalSpacing: CGFloat, state: UIControl.State){
         self.imageView?.contentMode = .center
+        
         self.setImage(anImage, for: state)
         
         positionLabelRespectToImage(title: title, position: titlePosition, spacing: additionalSpacing)
@@ -56,6 +57,7 @@ class HJButton: UIButton {
         self.titleEdgeInsets = titleInsets
         self.imageEdgeInsets = imageInsets
     }
+    
     //MARK: 快速创建原生Button
     static func creatButton(cg: CGRect, target: AnyObject, selector: Selector, titleColor: UIColor, backGroundImage: UIImage, title: String) ->UIButton{
         let bt = UIButton.init()
